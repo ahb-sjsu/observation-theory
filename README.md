@@ -6,6 +6,18 @@
 > show. If you read only one linked page, read the
 > [one-page manifesto](https://github.com/ahb-sjsu/geometric-observation/blob/master/OBSERVATION.md).
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/flip-dark.svg">
+    <img alt="The consumer-relative flip: two estimates with identical total uncertainty (tr Σ = 2.0) are ranked oppositely by two consumers reading at 15° and 75° — the consumer-read distortion d_O = tr(P_C Σ) is 0.39 vs 1.61 for consumer A and 1.61 vs 0.39 for consumer B, a 4.1× flip each way." src="assets/flip-light.svg" width="920">
+  </picture>
+</p>
+<p align="center"><sub>The theory in one picture — every number computed by
+<a href="assets/make_flip_figure.py"><code>assets/make_flip_figure.py</code></a>;
+the measured version is ledger row
+<a href="https://github.com/ahb-sjsu/geometric-observation/blob/master/claims/LEDGER.md">GO-EC-2</a>
+(verdict inversion in 100% of trace-matched sensor-schedule systems).</sub></p>
+
 **Thesis.** An observer is a triple **O = (C, G, B)**: a consumer, its output
 metric, and a resolution budget. It induces a read metric
 `P_C = JᵀGJ` — the geometry of what it can distinguish — and a quotient
