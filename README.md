@@ -68,3 +68,12 @@ is **DRI** (early drafts said "Bond Index"). Archived releases carry Zenodo
 DOIs under the book repository.
 
 *House rule: the program may not assert what the ledger cannot show.*
+
+## License
+
+Two licenses, split by what the file is.
+
+| What | License | File |
+|---|---|---|
+| Prose and figures: documentation, articles, papers, notes, figures, data, README | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | `LICENSE-TEXT` |
+| Source code: the package, scripts, tools, experiment harnesses, the code in notebooks | [MIT](https://opensource.org/licenses/MIT) | `LICENSE` |
